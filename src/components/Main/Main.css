@@ -176,13 +176,14 @@
     }
     .main-bottom input{
         flex: none;
-        width: 210px;
+        width: 220px;
     }
     .main-bottom img{
         width: 20px;
     }
     .search-box{
         padding: 0px 5px;
+        gap: 10px;
     }
     .search-box div{
         gap: 5px;
@@ -190,7 +191,7 @@
     .main .greet{
         margin: 8px 0px;
         padding: 10px;
-        font-size: 40px;
+        font-size: 36px;
     }
     .main .cards{
         padding: 15px;
