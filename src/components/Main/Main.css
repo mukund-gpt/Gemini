@@ -176,13 +176,13 @@
     }
     .main-bottom input{
         flex: none;
-        width: 150px;
+        width: 210px;
     }
     .main-bottom img{
         width: 20px;
     }
     .search-box{
-        padding: 5px 10px;
+        padding: 0px 5px;
     }
     .search-box div{
         gap: 5px;
@@ -204,5 +204,16 @@
 
     .bottom-info{
         font-size: 11px;
+    }
+    .result-title {
+        margin: 20px 0px;
+        gap: 5px;
+    }
+    .result-data{
+        gap: 5px;
+    }
+    .result-data p {
+        font-size: 13px;
+        line-height: 1.3;
     }
 }
