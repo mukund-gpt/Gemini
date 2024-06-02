@@ -184,4 +184,17 @@
     .search-box div{
         gap: 5px;
     }
+    .main .greet{
+        margin: 10px 0px;
+        padding: 10px;
+        font-size: 40px;
+    }
+    .main .cards{
+        padding: 15px;
+    }
+    .main .cards .card{
+        height: 140px;
+        padding: 15px;
+        
+    }
 }
