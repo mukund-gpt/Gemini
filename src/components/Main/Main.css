@@ -45,6 +45,7 @@
     height: 170px;
     background-color: #f0f4f9;
     padding: 15px;
+    font-size: 15px;
     border-radius: 10px;
     position: relative;
     cursor: pointer;
@@ -84,6 +85,7 @@
     background-color: #f0f4f9;
     border-radius: 50px;
     margin-bottom: 15px;
+   
 }
 .search-box div{
     display: flex;
