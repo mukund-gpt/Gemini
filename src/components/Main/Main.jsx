@@ -7,6 +7,11 @@ import { getAuth } from 'firebase/auth';
 
 const Main = () => {
   const { input, setInput, recentPrompt, showResult, loading, resultData, onSent } = useContext(Context)
+  const handleKeyDown = (event) => {
+    if (event.key === 'Enter') {
+      onSent(); 
+    }
+  };
   return (
     <div className="main">
       <div className="nav">
@@ -74,7 +79,7 @@ const Main = () => {
 
         <div className="main-bottom">
           <div className="search-box">
-            <input onChange={(e) => setInput(e.target.value)} value={input} type="text" placeholder='Enter a prompt here' />
+            <input onChange={(e) => setInput(e.target.value)} value={input} onKeyDown={handleKeyDown} type="text" placeholder='Enter a prompt here' />
             <div>
               <img src={assets.gallery_icon} />
               <img src={assets.mic_icon} />

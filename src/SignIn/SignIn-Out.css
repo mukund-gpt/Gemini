@@ -16,5 +16,8 @@
 
 
 .sign-out{
-    height: 30px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+    height: 35px;
+    cursor: pointer;
 }

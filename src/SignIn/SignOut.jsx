@@ -2,6 +2,7 @@ import React from 'react';
 import './SignIn-Out.css'
 import { auth } from './firebaseConfig';
 import { signOut } from 'firebase/auth';
+import { assets } from '../assets/assets';
 
 const SignOut = () => {
   const handleSignOut = async () => {
@@ -13,7 +14,7 @@ const SignOut = () => {
   };
 
   return (
-    <button onClick={handleSignOut} className='sign-out'>Sign Out</button>
+    <img src={assets.logout_icon} onClick={handleSignOut} className='sign-out' />
   );
 };
 
