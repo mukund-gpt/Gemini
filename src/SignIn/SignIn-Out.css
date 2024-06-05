@@ -1,0 +1,20 @@
+.signIn-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.sign-in{
+    margin: auto;
+    padding: 10px;
+    font-size: 20px 30px;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+
+.sign-out{
+    height: 30px;
+}
