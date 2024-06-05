@@ -4,7 +4,6 @@ import Main from './components/Main/Main'
 import SignIn from './SignIn/SignIn'
 import { auth } from './SignIn/firebaseConfig';
 import { onAuthStateChanged } from 'firebase/auth';
-import SignOut from './SignIn/SignOut';
 
 
 const App = () => {
@@ -22,16 +21,12 @@ const App = () => {
     <>
       {user ? (
         <>
-          <h2>Welcome, {user.displayName}</h2>
-          <SignOut />
+          <Sidebar />
+          <Main />        
         </>
       ) : (
         <SignIn />
       )}
-      
-      {/* <SignIn />
-      <Sidebar />
-      <Main /> */}
     </>
   )
 }
